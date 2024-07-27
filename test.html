@@ -1,0 +1,231 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      
+      body {
+        direction: rtl;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .column {
+        width: 50%;
+        padding: 20px;
+      }
+
+      .skill {
+        margin-bottom: 20px;
+      }
+
+      .skill-name {
+        font-weight: bold;
+      }
+
+      .progress-bar {
+        width: 100%;
+        height: 20px;
+        background-color: #ccc;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+
+      .progress-bar-fill {
+        height: 100%;
+        background-color: #4caf50;
+        border-radius: 5px;
+      }
+
+      .percentage {
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+         
+
+        <div class="skill">
+          <span class="skill-name">تصميم المواقع</span>
+          <div class="progress-bar">
+            <div class="progress-bar-fill" style="width: 65%"></div>
+          </div>
+          <span class="skill-name">جافاسكرب</span>
+          <div class="progress-bar">
+            <div class="progress-bar-fill" style="width: 65%"></div>
+          </div>
+          <span class="skill-name">تصميمع</span>
+          <div class="progress-bar">
+            <div class="progress-bar-fill" style="width: 65%"></div>
+          </div>
+          <span class="percentage">65%</span>
+        </div>
+      </div>
+      <div class="column">
+        <h2>My Skills</h2>
+      </div>
+    </div>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <!-- styl -->
+     <style>
+        body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.experience, .education, .skills {
+    margin-bottom: 20px;
+}
+
+.experience-item, .education-item {
+    background: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.experience-item h2, .education-item h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.experience-item p, .education-item p {
+    margin: 5px 0;
+}
+
+.experience-item span, .education-item span {
+    font-size: 14px;
+    color: #666;
+}
+
+.skills .skill {
+    margin-bottom: 10px;
+}
+
+.skills .skill span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background: #4caf50;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.download-cv {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+     </style>
+</head>
+<body>
+    <div class="container">
+        <h1>خبرتي</h1>
+        <div class="experience">
+            <div class="experience-item">
+                <h2>مصمم الويب</h2>
+                <p>هم العبارات</p>
+                <span>2012 - 2013</span>
+            </div>
+            <div class="experience-item">
+                <h2>مصمم المنتج</h2>
+                <p>دليل</p>
+                <span>2014 - 2016</span>
+            </div>
+            <div class="experience-item">
+                <h2>مصمم المنتج</h2>
+                <p>أدوي</p>
+                <span>2017 - 2019</span>
+            </div>
+        </div>
+        <h1>تعليمي</h1>
+        <div class="education">
+            <div class="education-item">
+                <h2>علوم الكمبيوتر</h2>
+                <p>جامعة القاهرة</p>
+                <span>2000 - 2004</span>
+            </div>
+            <div class="education-item">
+                <h2>درجة البكالوريوس</h2>
+                <p>جامعة كاليفورنيا</p>
+                <span>2005 - 2008</span>
+            </div>
+            <div class="education-item">
+                <h2>درجة الماجستير</h2>
+                <p>جامعة هارفارد</p>
+                <span>2009 - 2012</span>
+            </div>
+        </div>
+        <h1>مهاراتي</h1>
+        <div class="skills">
+            <div class="skill">
+                <span>المعلق</span>
+                <div class="skill-bar" style="width: 95%;"></div>
+            </div>
+            <div class="skill">
+                <span>رد فعل طبيعية</span>
+                <div class="skill-bar" style="width: 70%;"></div>
+            </div>
+            <div class="skill">
+                <span>التعميد</span>
+                <div class="skill-bar" style="width: 99%;"></div>
+            </div>
+            <div class="skill">
+                <span>تصميم المواقع</span>
+                <div class="skill-bar" style="width: 85%;"></div>
+            </div>
+            <div class="skill">
+                <span>باندا سكريبت</span>
+                <div class="skill-bar" style="width: 65%;"></div>
+            </div>
+            <div class="skill">
+                <span>الألوان طبيعية</span>
+                <div class="skill-bar" style="width: 60%;"></div>
+            </div>
+        </div>
+        <a href="#" class="download-cv">تحميل السيرة الذاتية</a>
+    </div>
+</body>
+</html>
